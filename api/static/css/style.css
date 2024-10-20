@@ -1,0 +1,104 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: auto; /* Change height to auto for flexible content */
+}
+
+/* Container */
+.container {
+    background-color: #e6f0fa; /* Light blue background */
+    width: 100%; /* Full width */
+    padding: 3rem; /* Padding for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure padding doesn't exceed viewport */
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: #005bb5; /* Dark blue color */
+    margin-bottom: 1.5rem; /* Increased margin for spacing */
+}
+
+.container h2 {
+    font-size: 2rem;
+    color: #004080; /* Darker blue for subheadings */
+    margin-top: 2.5rem; /* Increased margin for spacing */
+    margin-bottom: 1.5rem; /* Increased margin for spacing */
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    color: #005bb5; /* Same color as the main heading */
+    margin-top: 1.5rem;
+    margin-bottom: 1rem; /* Increased margin for spacing */
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem; /* Increased margin for spacing */
+}
+
+ul {
+    list-style-type: disc;
+    margin: 1.5rem 0; /* Increased margin for spacing */
+    padding-left: 20px;
+}
+
+code {
+    display: block;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem; /* Increased margin for spacing */
+    max-width: 600px; /* Keep code block from stretching too much */
+    word-wrap: break-word; /* Prevent code from overflowing */
+}
+
+pre {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+    overflow-x: auto;
+    margin-bottom: 1.5rem; /* Increased margin for spacing */
+    max-width: 600px; /* Keep it centered and easy to read */
+}
+
+/* Example Endpoints Section */
+.example-endpoints {
+    margin-top: 3rem; /* Add space above the Example Endpoints section */
+    margin-bottom: 2rem; /* Add space below the Example Endpoints section */
+}
+
+.example-endpoints h3 {
+    margin-top: 2rem; /* Increased margin for spacing above each endpoint */
+    margin-bottom: 1rem; /* Increased margin for spacing below each endpoint */
+}
+
+.example-endpoints p {
+    margin-bottom: 1.5rem; /* Increased margin for spacing between descriptions and examples */
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 2rem; /* Increased margin for spacing */
+}
+
+.cta-btn:hover {
+    background-color: #005bb5;
+}
+
