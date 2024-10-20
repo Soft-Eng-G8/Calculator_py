@@ -6,7 +6,7 @@ def add(a:float, b: float) -> float:
     """
     return a + b
 
-def subtract(a:float, b: float) -> float:
+def minus(a:float, b: float) -> float:
     """
     return the difference of a and b
     """
@@ -24,4 +24,4 @@ def divide(a:float, b: float) -> float:
     """
     if b == 0:
         raise ValueError("The denomunator cannot be null")
-    return a + b
+    return a / b
