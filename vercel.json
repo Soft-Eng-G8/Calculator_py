@@ -8,8 +8,8 @@
             "use": "@vercel/static"
         }
     ],
-    "routes": [ {
+    "routes": {
         "src": "/(.*)",
         "dest": "app.py"
-    }]
+    }
 }
